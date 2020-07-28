@@ -1,0 +1,16 @@
+{
+  "name": "Mafia_Bot",
+  "version": "1.0.0",
+  "description": "This bot was created to help people organise their online mafia parties during the quarantine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Leonid Bazilevich",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
