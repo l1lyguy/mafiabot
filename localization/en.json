@@ -1,0 +1,52 @@
+{
+	"err_gm_no_args":"You must mention person(s) for which you'd like to switch the role !-Gamemaster-!",
+
+	"err_lang_no_args":"You didn't choose a new language.",
+	"err_lang_unknown": ", this language is unknown or unsupported!\n *Type* **!help** *to get help with commands*",
+	"err_more_args":", you've provided more arguments than it's needed! \n*Type* **!help** *to get help with commands*", 
+
+	"err_start_no_args_pt1": "You didn't provide any arguments, ",
+	"err_start_no_args_pt2":"! \n*Type* **!help** *to get help with commands*",
+
+	"err_start_no_vc":", you must be in a voice channel to start the game as a Gamemaster.",
+	"err_start_no_players":", not enough players in this voice channel.",
+
+	"err_start_not_int1":", you must provide an integer for the number of mafia(s).",
+	"err_start_not_int2":", you must provide an integer for the number of mafia(s) and 1/0 if you need the doctor or not.",
+	"err_start_not_int3":", you must provide an integer for the number of mafia(s) and 1/0 if you need the doctor or not and the same for the sheriff.",
+
+	"err_start_no_mafia":", number of mafia(s) must be greater than zero!",
+
+	"help":"This bot has 5 commands:\n**!gamemaster** or **!gm** <mention> - to give someone a role '!-Gamemaster-!' *(only for owner and other GMs)*\n**!help** - to see this message\n**!start** - to start the game *(only for GMs)*\n__Arguments__:\n 1 - ``<mafia_number>`` - *number of mafias in game*\n 2 - ``<doctor_needed>`` - *1 if needed, 0 if not, default = 0* __*optional*__\n 3 - ``<sheriff_needed>`` - *1 if needed, 0 if not, default = 1* __*optional*__\n**!spectate** or **!sp** - to get/lose role 'Spect8r'\n**!stop** - to reset nicknames of players *(only for GMs)*\n**!language** or **!lang** + <your-language> - to switch the language from english to one of supported *(only for owner)*\n**!languages** or **!langs** - to see the list of supported languages *(only for owner)*",
+
+	"langs_base_string":"This bot supports these languages:\n",
+
+	"log_game_preset_pt1":", there'll be ",
+	"log_game_preset_pt2":" mafia(s), ",
+	"log_game_preset_pt3":" sheriff(s) and ",
+	"log_game_preset_pt4":" doctor(s).",
+
+	"log_start":"It's time to kill someone :spy: and have fun! :yum:",
+	"log_stop":"I hope all of you will return here to play again soon! :confused:",
+
+	"msg_gm_number":"Your number is ",
+
+	"msg_gmlog_base_pt1":"'Mafia'(s) is/are ",
+	"msg_gmlog_base_pt2":", 'Don' is ",
+	"msg_gmlog_dc":", 'Doctor' is ",
+	"msg_gmlog_sh":", 'Sheriff' is ",
+
+	"msg_role_cv":"Your role in this game is 'Civilian'",
+	"msg_role_dc":"Your role in this game is 'Doctor'",
+	"msg_role_dn":"Your role in this game is 'Don'",
+	"msg_role_mf":"Your role in this game is 'Mafia'",
+	"msg_role_sh":"Your role in this game is 'Sheriff'",
+
+	"role_gm_cr_reason":"we needed a role for gamemasters",
+	"role_gm_sw_reason":" used command !gm or !gamemaster",
+
+	"role_lang_cr_reason":"We needed a role for this language: ",
+
+	"role_sp_cr_reason":"we needed a role for spect8rs",
+	"role_sp_sw_reason":"Used command !spectate"
+}
