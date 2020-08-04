@@ -134,7 +134,7 @@ client.on('message', async function(message){
 
 		//check if there are enough players in the voice channel
 		if (members.length < mafia_number*2 + sheriff_needed + doctor_needed){
-			//return message.channel.send(`${message.author}` + msg_json.err_start_no_players);
+			return message.channel.send(`${message.author}` + msg_json.err_start_no_players);
 		}
 
 		//log about start
