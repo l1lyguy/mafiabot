@@ -39,9 +39,12 @@ client.on('message', async function(message){
 	if (message.guild.me.roles.cache.some(role => role.name === 'EN')) {
 		lang = 'en';
 	}
-	//if (message.guild.me.roles.cache.some(role => role.name === 'DE')) {
-	//	lang = 'de';
-	//}
+	if (message.guild.me.roles.cache.some(role => role.name === 'DE')) {
+		lang = 'de';
+	}
+	if (message.guild.me.roles.cache.some(role => role.name === 'TT')) {
+		lang = 'tt';
+	}
 
 	var file = './localization/' + lang + '.json';
 	var msg_json = require(file);
