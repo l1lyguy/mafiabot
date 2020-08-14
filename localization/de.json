@@ -1,0 +1,52 @@
+{
+	"err_gm_no_args":"Sie sollten den Benutzer angeben, zu den Sie die Rolle wechseln möchten !-Gamemaster-!",
+
+	"err_lang_no_args":"Sie haben keine andere Sprache gewählt.",
+	"err_lang_unknown": ", unbekannte oder nicht unterstützte Sprache! \n *Schreiben Sie* **!help** *um eine Liste aller Befehle zu sehen*",
+	"err_more_args":", Sie haben zu viele Argumente geliefert! \n*Schreiben Sie* **!help** *um eine Liste aller Befehle zu sehen*", 
+
+	"err_start_no_args_pt1": "Sie haben keine Argumente angegeben, ",
+	"err_start_no_args_pt2":"! \n*Schreiben Sie* **!help** *um eine Liste aller Befehle zu sehen*",
+
+	"err_start_no_vc":", Sie müssen sich im Sprachkanal befinden, um ein neues Spiel als Moderator zu starten.",
+	"err_start_no_players":", Es gibt nicht genug Spieler in diesem Sprachkanal.",
+
+	"err_start_not_int1":", Sie müssen eine ganze Zahl als die Anzahl der Mafia-Rollen angeben.",
+	"err_start_not_int2":", Sie müssen eine ganze Zahl als die Anzahl der Mafia-Rollen und 1 angeben, wenn Sie einen Arzt benötigen, oder 0, wenn nicht.",
+	"err_start_not_int3":", Sie müssen eine ganze Zahl als die Anzahl der Mafia-Rollen und 1 angeben, wenn Sie einen Arzt benötigen, oder 0, wenn nicht. Das gleiche gilt für den Sheriff.",
+	
+	"err_start_no_mafia":", Man kann keine Mafia ohne Mafia spielen!",
+
+	"help":"Insgesamt hat dieser Bot 5 Befehle:\n**!gamemaster** oder **!gm** <Erwähnung> - um jemandem eine Rolle zu geben oder sie wegzunehmen '!-Gamemaster-!' *(Nur für Serverbesitzer und andere Moderatoren.)*\n**!help** - um diese Nachricht zu sehen\n**!start** - um das Spiel zu starten *(nur für Moderatoren)*\n__Argumente__:\n 1 - ``<mafia_number>`` - *die Anzahl der Mafia im Spiel*\n 2 - ``<doctor_needed>`` - *Geben Sie eine 1 ein, wenn ein Arzt benötigt wird oder standardmäßig eine 0, wenn nicht. * __*nicht unbedingt*__\n 3 - ``<sheriff_needed>`` - *Geben Sie eine 0 ein, wenn ein Sheriff nicht benötigt wird oder standardmäßig eine 1.* __*nicht unbedingt*__\n**!spectate** oder **!sp** - um die Rolle 'Spect8r' (Beobachter) zu erhalten /zu verlieren\n**!stop** - Spieler Ihre Namen zurückgeben = Spiel beenden *(nur für Moderatoren)*\n**!language** oder **!lang** + <Ihre Sprache> - So ändern Sie die Sprache von Englisch in eine der anderen unterstützten Sprachen *(nur für Moderatoren)*\n**!languages** oder **!langs** - um eine Liste der unterstützten Sprachen anzuzeigen *(nur für Moderator)*",
+
+	"langs_base_string":"Dieser Bot unterstützt die folgenden Sprachen:\n",
+
+	"log_game_preset_pt1":", in das Spiel wird ",
+	"log_game_preset_pt2":" Vertreter /-in der Mafia, ",
+	"log_game_preset_pt3":" Scheriff /-s und ",
+	"log_game_preset_pt4":" Arzt /-en.",
+
+	"log_start":"Es ist Zeit zu töten :spy:und Spaß zu haben! :yum:",
+	"log_stop":"Ich hoffe sehr, dass Sie bald alle wiederkommen, um wieder mit mir zu spielen! :confused:",
+
+	"msg_gm_number":"Ihre Nummer lautet - ",
+
+	"msg_gmlog_base_pt1":"'Mafia' ist ",
+	"msg_gmlog_base_pt2":", 'Don' ist ",
+	"msg_gmlog_dc":", 'Arzt' ist ",
+	"msg_gmlog_sh":", 'Scheriff' ist ",
+
+	"msg_role_cv":"In diesem Spiel Ihre Rolle - 'Zivilist'",
+	"msg_role_dc":"In diesem Spiel Ihre Rolle - 'Arzt'",
+	"msg_role_dn":"In diesem Spiel Ihre Rolle - 'Don'",
+	"msg_role_mf":"In diesem Spiel Ihre Rolle - 'Mafia'",
+	"msg_role_sh":"In diesem Spiel Ihre Rolle - 'Scheriff'",
+
+	"role_gm_cr_reason":" wir brauchten eine Rolle für die Moderatoren ",
+	"role_gm_sw_reason":" benutz den Befehl !gm oder !gamemaster",
+
+	"role_lang_cr_reason":"wir brauchten eine Rolle für die nächste Sprache: ",
+
+	"role_sp_cr_reason":"wir brauchten eine Rolle für Beobachter",
+	"role_sp_sw_reason":"benutz den Befehl !spectate"
+}

@@ -9,7 +9,7 @@ const client = new Discord.Client();
 const PREFIX = '!';
 
 //list of the supported languages
-var langs = ["ru", "en"];
+var langs = ["ru", "en", "de", "tt"];
 
 
 client.on('ready', () => {
@@ -143,24 +143,20 @@ client.on('message', async function(message){
 		message.channel.send(`${message.author}` + msg_json.log_game_preset_pt1 + `${mafia_number}` + msg_json.log_game_preset_pt2 + `${sheriff_needed}` + msg_json.log_game_preset_pt3 + `${doctor_needed}` + msg_json.log_game_preset_pt4);
 		
 		//shuffle the array of members;
-		for(let i = members.length - 1; i > 0; i--){
-			const j = Math.floor(Math.random() * i)
-			const temp = members[i];
-			members[i] = members[j];
-			members[j] = temp;
-		}
+		members.sort(() => Math.random() - 0.5);
 				
 		//choose mafia_number of mafias
 		var mafias = [];
 		for (var i = 0; i < mafia_number; i++){
-			mafias.push(members[Math.floor(Math.random() * members.length)]);
-
+			var random_person = members[Math.floor(Math.random() * members.length)]
+			
 			//fix bug
 			if (i > 0){
-				while (mafias[i] === mafias[i-1]){
-					mafias[i] = members[Math.floor(Math.random() * members.length)];
+				while (mafias.includes(random_person)){
+					random_person = members[Math.floor(Math.random() * members.length)];
 				}
 			}
+			mafias.push(random_person);
 		}
 
 		//choose which mafia should become a don
